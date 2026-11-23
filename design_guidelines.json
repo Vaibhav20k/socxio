@@ -1,0 +1,202 @@
+{
+  "project_name": "Socxio - 3-Person Digital Atelier Portfolio",
+  "archetype": "LUXURY & EDITORIAL MODERNISM (Cinematic Burgundy & Alabaster)",
+  "vibe_description": "Awwwards Site-of-the-Month tier digital atelier portfolio for Socxio (2 Software Architects & 1 Brand/Marketing Strategist). Blends deep imperial burgundy wine textures, warm alabaster cream, stark architectural brutalism, interactive Three.js floating procedural sculptures, kinetic masked typographic hero reveals, 3D card tilt physics, and an interactive triumvirate Gateway entry.",
+  "theme_shades": {
+    "gate": {
+      "name": "The Triumvirate Gate",
+      "background": "#140407",
+      "surface": "#1F070C",
+      "border": "rgba(247, 237, 230, 0.12)",
+      "accent": "#9E1C38",
+      "text_primary": "#FAF5F0",
+      "text_secondary": "#B59E9E",
+      "description": "Deepest obsidian-burgundy portal with three towering clickable monolith cards that route visitors to Tech, Marketing, or Both."
+    },
+    "tech": {
+      "name": "Deep Dark Imperial Burgundy",
+      "background": "#0D0204",
+      "surface": "#19060A",
+      "surface_elevated": "#250B10",
+      "border": "rgba(180, 50, 75, 0.25)",
+      "accent": "#B82346",
+      "accent_glow": "rgba(184, 35, 70, 0.4)",
+      "text_primary": "#FCF8F5",
+      "text_secondary": "#C8A4A9",
+      "highlight": "#E54B6E",
+      "description": "High-density, architecture-forward engineering domain (Fullstack, WebGL, Rust/Node backend, Distributed Systems)."
+    },
+    "marketing": {
+      "name": "Rose-Burgundy & Velvet Mulberry",
+      "background": "#220811",
+      "surface": "#320F1C",
+      "surface_elevated": "#451627",
+      "border": "rgba(224, 130, 155, 0.28)",
+      "accent": "#D85375",
+      "accent_glow": "rgba(216, 83, 117, 0.35)",
+      "text_primary": "#FFF5F7",
+      "text_secondary": "#DFBAC5",
+      "highlight": "#F896AF",
+      "description": "Tactile, narrative-driven editorial landscape (Brand Strategy, Growth Engines, Narrative Positioning, Campaign Creative)."
+    },
+    "both": {
+      "name": "Alabaster Cream & Vintage Wine Dualism",
+      "background": "#FAF7F2",
+      "surface": "#FFFFFF",
+      "surface_elevated": "#F2EBE3",
+      "border": "rgba(61, 8, 19, 0.14)",
+      "accent": "#5E0D1E",
+      "accent_glow": "rgba(94, 13, 30, 0.25)",
+      "text_primary": "#20040A",
+      "text_secondary": "#5E4249",
+      "highlight": "#8F1630",
+      "description": "The complete holistic synergy where code meets positioning for end-to-end category kings."
+    }
+  },
+  "typography": {
+    "font_family_recommendation": {
+      "headings": "Playfair Display or Cormorant Garamond / Bodoni Moda style serif for poetic editorial grandeur, paired with Syne / Outfit / Cabinet Grotesk for architectural headers",
+      "subheadings": "Barlow Condensed or Space Grotesk / Outfit for high-fashion technical precision",
+      "body": "Plus Jakarta Sans, DM Sans, or IBM Plex Sans for ultra-legible body reading",
+      "mono_accents": "JetBrains Mono or IBM Plex Mono for coordinates, index numbers, stats, and timestamps"
+    },
+    "scale_system": {
+      "hero_title": "text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight leading-[1.08]",
+      "section_title": "text-2xl sm:text-3xl lg:text-4xl font-normal tracking-tight",
+      "card_title": "text-xl sm:text-2xl font-medium tracking-tight",
+      "eyebrow_badge": "text-xs uppercase tracking-[0.25em] font-mono",
+      "body_text": "text-sm sm:text-base leading-relaxed text-secondary",
+      "metric_number": "text-3xl sm:text-4xl font-light tracking-tighter font-mono"
+    }
+  },
+  "svg_assets": {
+    "brand_logo_svg": {
+      "description": "Original minimalist geometric SVG logo for Socxio combining three interlaced diamond ribbons representing the 2 developers and 1 marketer.",
+      "code_snippet": "<svg viewBox='0 0 100 100' className='w-9 h-9' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M50 10 L85 30 L50 50 L15 30 Z' stroke='currentColor' strokeWidth='3.5' strokeLinejoin='round'/><path d='M15 45 L50 65 L85 45' stroke='currentColor' strokeWidth='3.5' strokeLinejoin='round'/><path d='M15 65 L50 85 L85 65' stroke='currentColor' strokeWidth='3.5' strokeLinejoin='round'/><circle cx='50' cy='50' r='3.5' fill='currentColor'/></svg>"
+    },
+    "favicon_svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='#190408'/><path d='M16 6 L26 12 L16 18 L6 12 Z' stroke='#D85375' stroke-width='2' fill='none'/><path d='M6 18 L16 24 L26 18' stroke='#FAF5F0' stroke-width='2' fill='none'/></svg>"
+  },
+  "image_urls": {
+    "editorial_architecture": [
+      {
+        "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=srgb&fm=jpg&auto=format&fit=crop&q=85&w=1200",
+        "description": "Minimalist curving white architectural pavilion with dramatic light and shadows",
+        "category": "Hero / Case Study Backdrop for Creative Synthesis"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1546414701-81cc6963c67f?crop=entropy&cs=srgb&fm=jpg&auto=format&fit=crop&q=85&w=1200",
+        "description": "Brutalist architectural monolith geometry",
+        "category": "Tech Portfolio Featured Case Study"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1496865534669-25ec2a3a0fd3?crop=entropy&cs=srgb&fm=jpg&auto=format&fit=crop&q=85&w=1200",
+        "description": "Editorial fashion & high-end marketing spatial composition",
+        "category": "Marketing Portfolio Narrative Banner"
+      },
+      {
+        "url": "https://images.pexels.com/photos/18620026/pexels-photo-18620026.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Bronze abstract architectural sculpture",
+        "category": "Dualism / Synthesis Showcase Project"
+      }
+    ]
+  },
+  "studio_team_structure": {
+    "description": "3-Person Core Studio with intentional empty photo frame placeholder divs styled with brutalist wireframe aesthetics + fictional deep profiles",
+    "members": [
+      {
+        "id": "dev-1",
+        "name": "Valentin Rousseau",
+        "role": "Lead Systems Architect & Distributed Platforms",
+        "discipline": "TECH",
+        "specs": "Ex-Vercel Infrastructure, Rust / WebGL / High-Throughput Engines",
+        "signature_project": "Krypton Core: 120k req/s Realtime Asset Broker",
+        "placeholder_frame_aspect": "aspect-[3/4]",
+        "wireframe_id": "FRAME_TECH_01_EMPTY_PHOTO"
+      },
+      {
+        "id": "dev-2",
+        "name": "Elena Vane-Chen",
+        "role": "Principal Creative Engineer & Frontend Alchemist",
+        "discipline": "TECH",
+        "specs": "Shaders, Three.js GLSL, Micro-interaction choreography, Web Audio API",
+        "signature_project": "Chronos Spatial: 60fps WebGL Brand Flagship",
+        "placeholder_frame_aspect": "aspect-[3/4]",
+        "wireframe_id": "FRAME_TECH_02_EMPTY_PHOTO"
+      },
+      {
+        "id": "mkt-1",
+        "name": "Aurelia Thorne",
+        "role": "Partner & Brand Strategy Director",
+        "discipline": "MARKETING",
+        "specs": "Narrative Arbitrage, Go-To-Market blitz, Positioning for Seed to Series B",
+        "signature_project": "Velvet Capital Rebrand & $42M Category Launch",
+        "placeholder_frame_aspect": "aspect-[3/4]",
+        "wireframe_id": "FRAME_MKT_01_EMPTY_PHOTO"
+      }
+    ]
+  },
+  "core_interactive_mechanics": {
+    "the_gate_screen": {
+      "interaction": "Three towering monolith selector cards: TECH (Deep Dark Burgundy), BOTH (Cream & Wine Dualism), MARKETING (Rose-Burgundy). Hovering over each updates dynamic ambient lighting, displays teaser metrics, and tilts in 3D. Clicking initiates a fluid cinematic transition animating into the tailored scroll-story portfolio.",
+      "route_handling": "State or URL hash (?view=tech, ?view=marketing, ?view=both) with seamless 'Back to Gate' switcher accessible from the sticky header."
+    },
+    "threejs_webgl_canvas": {
+      "description": "Procedural interactive Three.js floating geometry canvas reacting to pointer move & scroll coordinates. Renders an elegant hovering wireframe icosahedron/torus knot with burgundy/rose/wine vertex points that glides and rotates organically in the background behind hero and transitions.",
+      "implementation": "Native Three.js with requestAnimationFrame and mousemove lerp listener (or @react-three/fiber if compatible) inside a responsive canvas container with z-0 pointer-events-none."
+    },
+    "css_3d_tilt_cards": {
+      "description": "Interactive mousemove tilt on cards calculation (rotateX, rotateY based on mouse offset from card center with smooth CSS transform transition and specular glare sheen effect)."
+    },
+    "masked_hero_text_reveal": {
+      "description": "Line-by-line overflow-hidden masked container text reveal using Framer Motion (staggered translateY from 100% to 0% with cubic-bezier(0.16, 1, 0.3, 1))."
+    },
+    "slow_editorial_marquee": {
+      "description": "Single ultra-slow, low-contrast typography ribbon drifting across the screen with quotes: 'NARRATIVE MEETS ARCHITECTURE — WHERE CODE CONVERTS — CRAFT OVER CONFORMITY — SOCXIO ATELIER MMXXVI'."
+    },
+    "interactive_portfolio_filter": {
+      "description": "Tab toggle allowing instant view switching between Tech, Marketing, and Both without leaving the story flow, changing page background tint dynamically."
+    },
+    "interactive_inquiry_drawer": {
+      "description": "Tactile Project Estimator & Scope Selector (Interactive budget slider, discipline checklist, timeline selector, and booking form with Sonner feedback)."
+    }
+  },
+  "navigation_and_header": {
+    "status": "Mandatory visible fixed/sticky header",
+    "backdrop": "backdrop-blur-xl border-b with responsive z-50",
+    "elements": [
+      "Original Socxio Monogram SVG + Wordmark",
+      "Gateway View Switcher Pill (Tech / Both / Marketing badge indicator)",
+      "Story Sections Nav: Works, Atelier Philosophy, Team, Capabilities, Journal",
+      "Primary CTA: 'Initiate Commission' button opening Project Estimator modal"
+    ]
+  },
+  "testing_attributes": {
+    "data_testids_required": [
+      "gate-selection-container",
+      "gate-card-tech",
+      "gate-card-marketing",
+      "gate-card-both",
+      "gate-return-button",
+      "view-filter-tech",
+      "view-filter-marketing",
+      "view-filter-both",
+      "webgl-hero-canvas",
+      "hero-masked-headline",
+      "marquee-ribbon",
+      "team-section-container",
+      "team-frame-dev-1",
+      "team-frame-dev-2",
+      "team-frame-mkt-1",
+      "project-card-interactive",
+      "commission-modal-trigger",
+      "commission-modal-submit"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. Replace default App.js with the full Socxio experience featuring the landing Gate Screen and the three deep scroll-story views (Tech, Marketing, Both).",
+    "2. Implement the Three.js interactive floating 3D particle/geometric sculpture that shifts color and responsiveness as the user hovers or switches views.",
+    "3. Keep team photo containers as styled placeholder empty frames with elegant architectural grid lines, crosshair marks (+), role codes, and fictional bios ('Photo frame awaiting studio portrait').",
+    "4. Ensure mobile-first responsiveness down to 390px viewport width (tested with flex-col fallbacks on gate cards and horizontal swipe on mobile galleries).",
+    "5. Use Sonner for instant interactive feedback when users test inquiry triggers or copy email."
+  ]
+}
